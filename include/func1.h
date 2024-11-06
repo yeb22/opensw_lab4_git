@@ -1,5 +1,5 @@
-#ifndef FUNC1.H
-#define FUNC1.H
+#ifndef FUNC1_H
+#define FUNC1_H
 
 void foo(void);
 
