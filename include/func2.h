@@ -1,5 +1,5 @@
-#ifndef FUNC2.H
-#define FUNC2.H
+#ifndef FUNC2_H
+#define FUNC2_H
 
 void goo(void);
 

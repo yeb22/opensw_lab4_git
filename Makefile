@@ -9,5 +9,7 @@ $(BIN_DIR)/myapp : $(OBJ_DIR)/main.o $(OBJ_DIR)/func1.o $(OBJ_DIR)/func2.o
 
 $(OBJ_DIR)/%.o : $(SRC_DIR)/%.c
 	gcc -c -o $@ $< -I$(INC_DIR)
-	
 
+clean:
+	rm -f $(OBJ_DIR)/*.o
+	rm -f $(BIN_DIR)/myapp
